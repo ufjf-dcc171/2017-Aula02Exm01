@@ -6,7 +6,7 @@ public class Aula02Exm01 {
 
     public static void main(String[] args) {
         Janela janela = new Janela();
-        janela.setSize(320, 200);
+        janela.setSize(320, 400);
         janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         janela.setLocationRelativeTo(null);
         janela.setVisible(true);
