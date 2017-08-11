@@ -6,14 +6,16 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 public class Janela extends JFrame{
-
+    private final JLabel etiqueta;
+    private final JLabel etiqueta2;
+    
     public Janela() throws HeadlessException {
         super("Exemplo Janela");
         setLayout(new FlowLayout());
-        JLabel etiqueta = new JLabel("Universidade Federal de Juiz de Fora!");
-        add(etiqueta);
+        etiqueta = new JLabel("Universidade Federal de Juiz de Fora!");
+        etiqueta2 = new JLabel("Departamento de Ciência da Computação");
         
-        JLabel etiqueta2 = new JLabel("Departamento de Ciência da Computação");
+        add(etiqueta);
         add(etiqueta2);
     }
     
